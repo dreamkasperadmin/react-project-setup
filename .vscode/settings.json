@@ -1,0 +1,40 @@
+{
+  // Editor settings
+  "editor.detectIndentation": true,
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "editor.glyphMargin": true,
+  "editor.minimap.enabled": true,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "expand",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 22,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+
+  // Es Lint settings
+  "eslint.alwaysShowStatus": true,
+
+  // Git settings
+  "git.enableSmartCommit": true,
+  "git.showProgress": true,
+
+  // Files Settings
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "prettier.stylelintIntegration": true,
+  "cSpell.words": [
+    "antd",
+    "Deactive",
+    "Unfollow"
+  ]
+}

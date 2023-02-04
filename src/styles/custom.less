@@ -1,0 +1,385 @@
+#root {
+  height: 100vh;
+}
+
+.header-notification {
+  display: flex;
+  align-items: center;
+
+  & > * {
+    margin-right: 20px;
+  }
+
+  & > .notification-bell {
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
+.gx-sidebar-content {
+  & > .ant-menu {
+    & > .ant-menu-item {
+      margin: 12px 0;
+
+      & > .menu-icons {
+        font-size: 20px;
+      }
+
+      & > span {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.ant-table {
+  & .ant-table-tbody {
+    & .anticon {
+      font-size: 20px;
+      padding: 0 4px;
+    }
+  }
+}
+
+.ant-table {
+  & .ant-table-tbody {
+    & .ant-btn {
+      margin: 0;
+      padding: 0;
+      height: auto;
+    }
+  }
+}
+
+.event-header-image {
+  & .ant-upload-select-picture-card {
+    width: 100%;
+  }
+}
+
+.event-header-image.ant-upload-picture-card-wrapper {
+  padding: 0 16px;
+}
+
+.event-form {
+  .ant-form-item-label {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.ant-message-custom-content {
+  display: flex;
+  align-items: center;
+
+  > .ant-message-custom-content .ant-message-info {
+    height: 36px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+}
+
+.upload-image-container {
+  & .ant-upload-select-picture-card {
+    width: 100%;
+  }
+}
+
+.upload-image-container.ant-upload-picture-card-wrapper {
+  padding: 0 16px;
+}
+
+.custom-icons-list {
+  margin-right: 10px;
+}
+
+.ant-table-column-sorters {
+  padding: 0;
+}
+
+.login-content {
+  padding: 35px;
+  width: 100%;
+}
+
+.ant-input-prefix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-password {
+  text-align: center;
+}
+
+.ant-btn-sm {
+  line-height: 0;
+}
+
+.attendee-details {
+  .ant-form-item {
+    min-width: 215px;
+    margin-right: 16px;
+  }
+}
+
+.rsvp-modal {
+  .ant-modal-footer {
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.ant-input-suffix {
+  display: flex;
+  align-items: center;
+}
+
+.option-input {
+  border: unset;
+  border-bottom: 1px solid #d9d9d9;
+  border-radius: 0;
+
+  &:focus {
+    border: unset;
+    border-bottom: 1px solid #d9d9d9;
+    border-radius: 0;
+    box-shadow: unset;
+  }
+
+  &:hover {
+    border-color: transparent;
+    border-right-width: 0;
+    border: unset;
+    border-bottom: 1px solid #d9d9d9;
+    border-radius: 0;
+  }
+}
+
+.option-input.ant-input-affix-wrapper-focused {
+  box-shadow: unset;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.donation-list {
+  overflow: auto;
+}
+
+.donation-card {
+  border: 1px solid #e5e5e5;
+  padding: 14px 32px;
+  border-radius: 4px;
+  margin-right: 24px;
+  cursor: pointer;
+  cursor: pointer;
+  min-width: 200px;
+  text-align: center;
+  min-height: 100px;
+  margin-bottom: 12px;
+}
+
+.donation-card.active {
+  background-color: #efefef;
+}
+
+.ministry-modal {
+  height: 500px;
+
+  .ant-modal-body {
+    padding: 0;
+  }
+
+  object {
+    min-height: 500px;
+  }
+}
+
+.dialog {
+  .ant-modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    > button:first-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+.action-icons {
+  display: flex;
+  align-items: center;
+
+  button:first-child {
+    margin-right: 12px;
+  }
+
+  > button {
+    margin-bottom: 0;
+  }
+}
+
+//CUSTOM STYLE CLASSES START
+
+//margin & padding style
+.m-0 {
+  margin: 0;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.p-0 {
+  padding: 0;
+}
+//margin & padding style
+
+// flex-box related style
+.d-flex {
+  display: flex;
+}
+
+.flex-horizontal {
+  flex-direction: row;
+}
+
+.flex-vertical {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+.flex-shrink-2 {
+  flex-shrink: 2;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+// flex-box related style
+
+//width classes
+.width-percent-20 {
+  width: 20%;
+}
+
+.width-percent-50 {
+  width: 50%;
+}
+
+.width-percent-60 {
+  width: 60%;
+}
+
+.width-percent-40 {
+  width: 40%;
+}
+
+.width-percent-5 {
+  width: 5%;
+}
+
+.width-percent-25 {
+  width: 25%;
+}
+
+.line-24 {
+  line-height: 24px;
+}
+
+.fill-width {
+  width: 100%;
+}
+//width classes
+
+//cursor
+.pointer {
+  cursor: pointer;
+}
+//cursor
+
+//border style
+.b-0 {
+  border: none;
+}
+//border style
+
+.font-xx-large {
+  font-size: xx-large;
+}
+
+.font-large {
+  font-size: large;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+//CUSTOM STYLE CLASSES END
